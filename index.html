@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparsa's Handmade Jewellery</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="tailwind.css">
+</head>
+<body class="font-sans bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="flex bg-pink-700 p-2 ">
+        <a href="index.html" class=" flex-none w-1/3 text-white text-xl font-bold pl-3 flex items-center">
+            Sparsa's Handmade
+        </a>
+        <div class="flex-1 text-sm flex justify-center items-center space-x-4">
+            <a href="index.html" class="text-white py-2 px-4 hover:text-black">Home</a>
+            <a href="products.html" class="text-white py-2 px-4 hover:text-black">Products</a>
+            <a href="contact.html" class="text-white py-2 px-4 hover:text-black">Contact</a>
+            <a href="about.html" class="text-white py-2 px-4 hover:text-black">About</a>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+
+<section id="home" class="bg-gradient-to-r from-gray-100 via-white to-gray-50">
+  <!-- Banner -->
+
+  <div class=" bg-cover   flex items-center justify-center bg-pink-700 rounded-b-full");">
+
+    <div class="text-center text-white backdrop-blur-sm bg-black/50 p-8 rounded-lg">
+
+      <h1 class="text-5xl font-extrabold mb-4 animate-fade-in">Welcome to Sparsa's Handmade Creations</h1>
+
+      <p class="text-lg font-light mb-6 animate-slide-in">Crafting memories, one unique piece at a time.</p>
+
+      <a id="productBtn" href="products.html" class="px-6 py-3 bg-white rounded-lg text-pink-700 hover: transition">Shop Now</a>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- Product Categories -->
+
+  <div class="py-16 ">
+
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Our Product Categories</h2>
+
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+
+      <!-- Category 1 -->
+
+      <div class="text-center group">
+
+        <div class="relative overflow-hidden rounded-lg shadow-lg">
+
+          <img src="https://via.placeholder.com/300x300" alt="Necklaces" class="w-full group-hover:scale-105 transition-transform duration-300">
+
+          <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+
+            <a href="#" class="text-white font-bold text-lg">View Necklaces</a>
+
+          </div>
+
+        </div>
+
+        <h3 class="mt-4 text-xl font-semibold text-gray-700">Necklaces</h3>
+
+      </div>
+
+      <!-- Category 2 -->
+
+      <div class="text-center group">
+
+        <div class="relative overflow-hidden rounded-lg shadow-lg">
+
+          <img src="https://via.placeholder.com/300x300" alt="Bracelets" class="w-full group-hover:scale-105 transition-transform duration-300">
+
+          <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+
+            <a href="#" class="text-white font-bold text-lg">View Bracelets</a>
+
+          </div>
+
+        </div>
+
+        <h3 class="mt-4 text-xl font-semibold text-gray-700">Bracelets</h3>
+
+      </div>
+
+      <!-- Category 3 -->
+
+      <div class="text-center group">
+
+        <div class="relative overflow-hidden rounded-lg shadow-lg">
+
+          <img src="https://via.placeholder.com/300x300" alt="Earrings" class="w-full group-hover:scale-105 transition-transform duration-300">
+
+          <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+
+            <a href="#" class="text-white font-bold text-lg">View Earrings</a>
+
+          </div>
+
+        </div>
+
+        <h3 class="mt-4 text-xl font-semibold text-gray-700">Earrings</h3>
+
+      </div>
+
+      <!-- Category 3 -->
+
+      <div class="text-center group">
+
+        <div class="relative overflow-hidden rounded-lg shadow-lg">
+
+          <img src="https://via.placeholder.com/300x300" alt="Earrings" class="w-full group-hover:scale-105 transition-transform duration-300">
+
+          <div class="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+
+            <a href="#" class="text-white font-bold text-lg">View Earrings</a>
+
+          </div>
+
+        </div>
+
+        <h3 class="mt-4 text-xl font-semibold text-gray-700">Earrings</h3>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- Customer Satisfaction Slider -->
+
+  <div class="bg-gray-100 py-16">
+
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">What Our Customers Say</h2>
+
+    <div class="relative container mx-auto px-4">
+
+      <!-- Slider -->
+
+      <div class="overflow-hidden relative">
+
+        <div class="flex gap-8 transition-transform duration-300" id="testimonial-slider">
+
+          <!-- Testimonial 1 -->
+
+          <div class="bg-white p-8 rounded-lg shadow-lg min-w-[300px]">
+
+            <p class="text-gray-600 italic mb-4">"Absolutely stunning pieces! Each one feels so unique and crafted with care."</p>
+
+            <h4 class="text-gray-800 font-bold">- Sarah M.</h4>
+
+          </div>
+
+          <!-- Testimonial 2 -->
+
+          <div class="bg-white p-8 rounded-lg shadow-lg min-w-[300px]">
+
+            <p class="text-gray-600 italic mb-4">"The attention to detail is remarkable. I love wearing my new bracelet."</p>
+
+            <h4 class="text-gray-800 font-bold">- John D.</h4>
+
+          </div>
+
+          <!-- Testimonial 3 -->
+
+          <div class="bg-white p-8 rounded-lg shadow-lg min-w-[300px]">
+
+            <p class="text-gray-600 italic mb-4">"Sparsa's creations are not just jewelry; they're wearable art."</p>
+
+            <h4 class="text-gray-800 font-bold">- Emily R.</h4>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- Navigation Arrows -->
+
+      <div class="absolute top-1/2 left-0 transform -translate-y-1/2 cursor-pointer bg-gray-300 p-2 rounded-full" id="prev-arrow">
+
+        <
+
+      </div>
+
+      <div class="absolute top-1/2 right-0 transform -translate-y-1/2 cursor-pointer bg-gray-300 p-2 rounded-full" id="next-arrow">
+
+        >
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+    
+</body>
+</html>
