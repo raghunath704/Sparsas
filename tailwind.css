@@ -21,6 +21,22 @@
 }
 
 
+.testimonial-container {
+  overflow-x: hidden; /* Hide overflow */
+  white-space: nowrap; /* Prevent wrapping */
+  display: flex;
+  transition: transform 0.8s linear; /* Smooth transition */
+}
+
+.testimonial {
+  flex-shrink: 0;
+  min-width: 300px;
+  margin-right: 2rem;
+}
+.testimonial:last-child{
+  margin-right:0px;
+}
+
 
   
 .animate-fade-in {
